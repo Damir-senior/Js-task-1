@@ -1,7 +1,5 @@
-/*2. Простые сообщения: сохраните сообщение в переменной и выведите это сообщение.
- Затем замените значение переменной другим сообщением и выведите новое сообщение*/
+//3. Напишите несколько строк кода, выводящих на экран ваше имя и почтовый адрес.
+let userName = "Damirbek Toroev";
+let userIndex = "Damirbek.toroev.on@gmail.com";
 
-let firstTxt = "Do what you love.";
-secondTxt = "Love what you do";
-
-console.log(secondTxt);
+console.log(userName + "/" + userIndex);
