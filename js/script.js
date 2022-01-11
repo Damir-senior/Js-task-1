@@ -1,5 +1,14 @@
-//3. Напишите несколько строк кода, выводящих на экран ваше имя и почтовый адрес.
-let userName = "Damirbek Toroev";
-let userIndex = "Damirbek.toroev.on@gmail.com";
+/*Интернет-магазин занимается продажей различных сувениров и безделушек.
+ Каждый сувенир весит 75 г, а безделушка – 112 г. Напишите программу, 
+ запрашивающую у пользователя количество тех и других покупок, после
+  чего выведите на экран общий вес посылки.*/
 
-console.log(userName + "/" + userIndex);
+let souvenir = 75;
+let trinket = 112;
+
+let numSouvenirs = +prompt("Пишите количество сувениров");
+let numTrinkets = +prompt("Пишите количество безделушек");
+
+let result = souvenir * numSouvenirs + trinket * numTrinkets;
+
+console.log("Общий вес состовляет: " + result);
